@@ -1,3 +1,5 @@
+EXPOSE 80
+EXPOSE 443 
 FROM golang:alpine AS build
 
 RUN apk add --no-cache curl git alpine-sdk
