@@ -1,5 +1,4 @@
 FROM golang:alpine AS build
-WORKDIR /
 EXPOSE 80
 EXPOSE 443
 RUN apk add --no-cache curl git alpine-sdk
