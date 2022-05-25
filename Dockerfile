@@ -1,6 +1,5 @@
 FROM golang:alpine AS build
-EXPOSE 80
-EXPOSE 443
+
 RUN apk add --no-cache curl git alpine-sdk
 
 ARG SWAGGER_UI_VERSION=4.8.0
