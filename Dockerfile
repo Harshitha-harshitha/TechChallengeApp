@@ -1,3 +1,4 @@
+WORKDIR /app 
 EXPOSE 80
 EXPOSE 443 
 FROM golang:alpine AS build
